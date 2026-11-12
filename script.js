@@ -33,9 +33,9 @@ const CONFIG = {
   META_PIXEL_ID: "[META_PIXEL_ID]",
   MENSAJES: {
     general: "Hola URU 👋 Quiero el Ventilador Portátil Clip 360° (vi la página uru.pe/ventilador-clip). ¿Me confirman stock y delivery a [mi distrito]?",
-    combo1: "Hola URU 👋 Quiero 1 Ventilador Portátil Clip 360° (S/ 64.90). ¿Me confirman stock y delivery a [mi distrito]?",
-    combo2: "Hola URU 👋 Quiero el combo de 2 ventiladores clip (S/ 109.90, delivery incluido en Lima). ¿Me confirman stock?",
-    combo3: "Hola URU 👋 Quiero el combo de 3 ventiladores clip (S/ 149.90, delivery incluido en Lima). ¿Me confirman stock?"
+    combo1: "Hola URU 👋 Quiero 1 Ventilador Portátil Clip 360° (S/ 45). ¿Me confirman stock y delivery a [mi distrito]?",
+    combo2: "Hola URU 👋 Quiero el combo de 2 ventiladores clip (S/ 80, delivery incluido en Lima). ¿Me confirman stock?",
+    combo3: "Hola URU 👋 Quiero el combo de 3 ventiladores clip (S/ 105, delivery incluido en Lima). ¿Me confirman stock?"
   }
 };
 

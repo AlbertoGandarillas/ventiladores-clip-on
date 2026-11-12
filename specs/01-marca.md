@@ -4,7 +4,7 @@ Violación de cualquier regla de este archivo = bug bloqueante. Revisar antes de
 
 ## Qué es URU
 
-URU (uru.pe) es la **empresa importadora y vendedora**. Importa productos y los distribuye en Perú con atención y garantía propias.
+URU (uru.pe) es la **empresa importadora y vendedora**. Importa productos y los distribuye en Perú con atención propia. No ofrece garantía de producto ni política de cambios: la página no debe prometerlas.
 
 ## Qué NO es URU
 
@@ -23,7 +23,7 @@ Prohibido: "URU Ventilador", "Ventilador URU", "ventilador de URU", "el URU".
 | Lugar | Logo | Texto acompañante obligatorio |
 | --- | --- | --- |
 | Header | Logo horizontal negro | "Importado por URU" |
-| Bloque Garantías URU | Isotipo | "Atención y garantía URU" |
+| Bloque de confianza | Isotipo | "Atención URU" |
 | Botón flotante / sticky de WhatsApp | Isotipo (pequeño) | — |
 | Footer | Logo horizontal blanco | "Importado por URU" |
 
@@ -34,12 +34,12 @@ Nunca: el logo URU encima o al lado del nombre del producto en el hero, en las t
 - "Importado por URU"
 - "Distribuido por URU"
 - "Producto importado por URU"
-- "Atención y garantía URU"
+- "Atención URU"
 - "Compra con respaldo URU"
 
 ## Ficha del producto (obligatoria, visible)
 
-En el hero (texto pequeño bajo el precio) y en Garantías URU:
+En el hero (texto pequeño bajo el precio) y en el bloque de confianza:
 
 > Producto importado por URU. Marca del fabricante: [NOMBRE_FABRICANTE]
 

@@ -10,7 +10,7 @@ Formato: `RF-xx` funcional, `RNF-xx` no funcional. Cada uno tiene criterios veri
 - Sin menú de navegación (una sola página). Si se añade, solo anclas internas.
 
 ### RF-02 Hero
-- Etiqueta "Ventilador Portátil Clip 360°", H1 único, subtítulo, precio S/ 64.90 (+ "2 por S/ 109.90" pequeño), botón primario "Comprar ahora" (`[ENLACE_PAGO_1]`), botón secundario "Pedir por WhatsApp", 3 insignias, ficha "Producto importado por URU. Marca del fabricante: [NOMBRE_FABRICANTE]".
+- Etiqueta "Ventilador Portátil Clip 360°", H1 único, subtítulo, precio S/ 45 (+ "2 por S/ 80" pequeño), botón primario "Comprar ahora" (`[ENLACE_PAGO_1]`), botón secundario "Pedir por WhatsApp", 2 insignias (sin garantía), ficha "Producto importado por URU. Marca del fabricante: [NOMBRE_FABRICANTE]".
 - Móvil: imagen `ventilador-clip-hero.webp` (cuadrada, `fetchpriority="high"`, sin lazy). Desktop ≥ 1024: `<video>` con `poster`, `preload="none"`, `muted playsinline loop`, se reproduce al entrar en viewport.
 - Criterio: en un iPhone SE (375×667) el botón "Comprar ahora" es visible sin scroll.
 
@@ -24,21 +24,22 @@ Formato: `RF-xx` funcional, `RNF-xx` no funcional. Cada uno tiene criterios veri
 - 3 pasos numerados con ícono. Video `ventilador-clip-como-usar.mp4` con poster, lazy (solo se inserta el `<source>` al entrar en viewport, o `preload="none"`).
 
 ### RF-06 Usos recomendados
-- 8 tarjetas con foto + título. Móvil: carrusel horizontal con `scroll-snap-type: x mandatory`, sin JS. Desktop: grid de 4. CTA único "Quiero el mío" (WhatsApp).
+- Tarjetas con foto + título, solo con usos reales del clip: encima de una superficie (escritorio, mesa, mesa de noche) o enganchado a ropa, un bolso o una tela delgada. El coche de bebé se menciona solo en una tela, nunca en el mango. Móvil: carrusel horizontal con `scroll-snap-type: x mandatory`, sin JS. Desktop: grid de 4. CTA único "Quiero el mío" (WhatsApp).
 
 ### RF-07 Comparativa
 - Tabla accesible (`<table>` con `<th scope>`), 6 filas, columnas "Ventilador clip" / "Ventilador tradicional", ✓/✗ como SVG con `aria-label`. Nota al pie. Sin marcas de terceros.
 
 ### RF-08 Oferta y precios
-- 3 tarjetas: 1 ud S/ 64.90 · 2 ud S/ 109.90 (etiqueta "Más elegida", destacada) · 3 ud S/ 149.90. Cada una con precio por unidad, línea de envío y botón "Elegir mi combo" → `[ENLACE_PAGO_n]`; si el enlace de pago está vacío, el botón abre WhatsApp con el mensaje del combo.
+- 3 tarjetas: 1 ud S/ 45 · 2 ud S/ 80 (S/ 40 cada uno, etiqueta "Más elegida", destacada) · 3 ud S/ 105 (S/ 35 cada uno). Cada una con precio por unidad, línea de envío y botón "Elegir mi combo" → `[ENLACE_PAGO_n]`; si el enlace de pago está vacío, el botón abre WhatsApp con el mensaje del combo.
 - Texto de envío y "Quedan pocas unidades de este lote" (se oculta con una clase cuando `STOCK_LIMITADO = false` en `script.js`).
 
-### RF-09 Garantías URU
-- Isotipo URU, titular, intro, 4 garantías con ícono. Bloque de reseñas con `hidden` por defecto; se muestra si `RESEÑAS.length > 0` en `script.js`.
+### RF-09 Confianza URU
+- Isotipo URU, titular, intro, 2 bloques con ícono (atención por WhatsApp y envío asegurado). Sin garantía de producto ni política de cambios. Bloque de reseñas con `hidden` por defecto; se muestra si `RESEÑAS.length > 0` en `script.js`.
 - Ficha del fabricante repetida aquí.
+- Debajo, sección de testimonios del producto (ver `04-contenido.md`): 10 opiniones en español, con nombre peruano, nota de 4 o 5 y texto. No se presentan como clientes de URU ni dicen que el clip se sujeta a un borde grueso.
 
 ### RF-10 Preguntas frecuentes
-- 10 preguntas en `<details><summary>`. Sin JS. La primera abierta por defecto (`open`).
+- 8 preguntas en `<details><summary>`. Sin JS. La primera abierta por defecto (`open`). No se pregunta por garantía ni por devoluciones.
 
 ### RF-11 Contacto y redes
 - Datos de contacto con placeholders. 6 botones de redes (Instagram, TikTok, Facebook, YouTube, WhatsApp Business, Mercado Libre) con SVG inline, `aria-label`, `rel="noopener"`, `target="_blank"`. Texto "Síguenos en nuestras redes…". CTA "Pedir por WhatsApp".
@@ -47,7 +48,7 @@ Formato: `RF-xx` funcional, `RNF-xx` no funcional. Cada uno tiene criterios veri
 - Titular, imagen `ventilador-clip-producto-blanco.webp`, precio, botones "Comprar ahora" + "Pedir por WhatsApp".
 
 ### RF-13 Footer
-- Logo blanco, "Importado por URU", enlaces (WhatsApp, correo, redes), políticas (4), RUC, Libro de reclamaciones, © 2026 URU, "Marca del fabricante: [NOMBRE_FABRICANTE]".
+- Logo blanco, "Importado por URU", enlaces (WhatsApp, correo, redes), políticas (privacidad y términos), RUC, © 2026 URU, "Marca del fabricante: [NOMBRE_FABRICANTE]". Sin libro de reclamaciones ni cambios y devoluciones.
 
 ### RF-14 Barra sticky inferior (solo móvil < 1024)
 - Aparece cuando el hero sale del viewport (IntersectionObserver). Muestra precio y botón "Pedir por WhatsApp" (alto 56 px). Se oculta sobre el footer. `padding-bottom` en `body` para no tapar contenido.
@@ -59,7 +60,7 @@ Formato: `RF-xx` funcional, `RNF-xx` no funcional. Cada uno tiene criterios veri
 - Botones "Comprar ahora"/"Elegir mi combo" apuntan a `[ENLACE_PAGO_1..3]`. Si vacío → fallback a WhatsApp. Documentar en README cómo obtener links de Mercado Pago / Culqi / Izipay.
 
 ### RF-17 Páginas de políticas
-- 4 páginas HTML simples en `politicas/` con el mismo header/footer: `privacidad.html`, `terminos.html`, `devoluciones.html`, `libro-de-reclamaciones.html` (esta última con formulario estático o enlace al formato oficial; marcar `[CONFIRMAR]`).
+- 2 páginas HTML simples en `politicas/` con el mismo header/footer: `privacidad.html` y `terminos.html`. No hay página de cambios, devoluciones ni libro de reclamaciones.
 
 ## Requisitos no funcionales
 
@@ -78,7 +79,7 @@ Formato: `RF-xx` funcional, `RNF-xx` no funcional. Cada uno tiene criterios veri
 - HTML5 semántico (`header`, `main`, `section` con `aria-labelledby`, `footer`). CSS con variables en `:root`, mobile-first, breakpoints 768 y 1024. JS < 6 KB, sin dependencias, en un IIFE o módulo, con comentarios en español. Sin `innerHTML` con datos externos.
 
 ### RNF-05 Idioma
-- Todo en español (contenido, `alt`, `aria-label`, meta, comentarios, README). Precios con formato `S/ 64.90`.
+- Todo en español (contenido, `alt`, `aria-label`, meta, comentarios, README). Precios con formato `S/ 45`.
 
 ### RNF-06 Hosting
 - Estático. Debe funcionar subiendo la carpeta tal cual a Vercel, Netlify, GitHub Pages o hosting compartido. Ruta `/ventilador-clip/` → incluir `vercel.json` con `cleanUrls` y rewrite opcional (documentado en README).

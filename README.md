@@ -37,7 +37,7 @@ Los datos técnicos marcados `[CONFIRMAR …]` (autonomía, tiempo de carga, uso
 
 `CONFIG.PAGOS` tiene tres posiciones: combo de 1, de 2 y de 3 unidades. Si una posición no es un enlace `https://…`, ese botón abre WhatsApp con el mensaje del combo.
 
-Cómo obtener un link de pago por monto fijo: Mercado Pago, Culqi e Izipay ofrecen "links de pago" desde su panel o app. Crea uno por combo, con monto fijo (S/ 64.90, S/ 109.90 y S/ 149.90) y una descripción del tipo "Ventilador Portátil Clip 360° — combo de 2". Copia cada enlace en su posición de `CONFIG.PAGOS`. Los menús cambian seguido; si no encuentras la opción, revisa la ayuda oficial de cada pasarela.
+Cómo obtener un link de pago por monto fijo: Mercado Pago, Culqi e Izipay ofrecen "links de pago" desde su panel o app. Crea uno por combo, con monto fijo (S/ 45, S/ 80 y S/ 105) y una descripción del tipo "Ventilador Portátil Clip 360° — combo de 2". Copia cada enlace en su posición de `CONFIG.PAGOS`. Los menús cambian seguido; si no encuentras la opción, revisa la ayuda oficial de cada pasarela.
 
 Recuerda poner el nombre de la pasarela en `CONFIG.PASARELA_PAGO` (aparece en la FAQ y en los términos).
 
@@ -67,7 +67,7 @@ Para cambiar una foto: reemplaza el original en `assets/_origen/`, ajusta la ent
 
 **Pendientes de foto real:**
 
-- Uso **"Cocina"**: usa `ventilador-clip-producto-blanco.webp` provisionalmente.
+- Uso **"Coche de bebé"**: no hay foto de una tela. La tarjeta usa `ventilador-clip-producto-blanco.webp` y el texto dice que va enganchado a una tela, no al mango.
 - Las fotos de Amazon con texto en inglés y datos sin verificar (mAh, horas, dB) se descartaron. Ver la nota en `specs/05-assets.md`.
 
 ## Analítica
@@ -90,7 +90,7 @@ Después de publicar, sigue el checklist de `specs/07-lanzamiento.md`.
 ```
 ventilador-clip/
 ├── index.html, styles.css, script.js
-├── politicas/           privacidad, terminos, devoluciones, libro-de-reclamaciones
+├── politicas/           privacidad, terminos
 ├── assets/{img,video,logo}
 ├── robots.txt, sitemap.xml, vercel.json
 ├── scripts/             preparar-assets, verificar-peso, mapa-assets.json

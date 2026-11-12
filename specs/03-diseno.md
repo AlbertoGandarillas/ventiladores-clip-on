@@ -17,6 +17,7 @@ Estilo: premium, limpio, mucho blanco, fotos grandes, **un solo color de acento 
 | `--color-marca-amarillo` | `#E0B100` | Solo logo y detalle del sello "Importado por URU" |
 | `--color-urgencia` | `#E8590C` | Etiqueta "Stock limitado" (un solo uso) |
 | `--color-borde` | `#E3E8EE` | Bordes de tarjetas y tabla |
+| `--color-estrella` | `#C4840A` | Estrellas de los testimonios. No es el amarillo de la marca. |
 
 Decisión pendiente del dueño: si prefiere el amarillo URU como acento de botones, cambiar solo `--color-cta` a `#E0B100` y `--color-cta-hover` a `#C49C00`, y el texto de botón a `#141413`.
 
@@ -28,7 +29,7 @@ Decisión pendiente del dueño: si prefiere el amarillo URU como acento de boton
 
 ### Decisiones de implementación (layout móvil)
 
-- La imagen del hero es cuadrada, pero su alto se limita a `100svh − 430px` (mínimo 170 px, recorte `object-fit: cover`) para que "Comprar ahora" quepa sin scroll en 375×667.
+- La imagen del hero es cuadrada, pero su alto se limita a `100svh − 470px` (mínimo 160 px, recorte `object-fit: cover`) para que "Comprar ahora" quepa sin scroll en 375×667.
 - Header: el indicador "Envíos a todo el Perú" se muestra desde 480 px (en móvil ya aparece como insignia del hero). Bajo 360 px el sello "Importado por URU" va debajo del logo.
 
 ## Tipografía
@@ -67,11 +68,12 @@ Escala móvil / desktop:
 6. Usos: carrusel horizontal (`scroll-snap`), tarjetas 72 % de ancho, foto 4:3.
 7. Comparativa: tabla con scroll horizontal si no cabe; primera columna sticky.
 8. Precios: 3 tarjetas apiladas; la de 2 unidades con borde `--color-primario` y etiqueta.
-9. Garantías: isotipo centrado → 4 bloques apilados.
-10. FAQ: `<details>` a ancho completo.
-11. Contacto: lista → grid de botones 2 columnas.
-12. Llamado final: imagen → texto → botones.
-13. Footer: columnas apiladas, fondo negro, texto blanco al 80 %.
+9. Confianza: isotipo centrado → 2 bloques apilados (sin garantía ni cambios).
+10. Testimonios: tarjetas apiladas (nota, título, texto, nombre).
+11. FAQ: `<details>` a ancho completo.
+12. Contacto: lista → grid de botones 2 columnas.
+13. Llamado final: imagen → texto → botones.
+14. Footer: columnas apiladas, fondo negro, texto blanco al 80 %.
 14. Barra sticky inferior 56 px (precio + botón WhatsApp).
 
 ## Layout desktop (≥ 1024 px)
@@ -79,7 +81,7 @@ Escala móvil / desktop:
 - Hero: grid 55/45, texto izquierda, video con poster derecha, botones en fila, insignias bajo los botones.
 - Problema y solución: 2 columnas alternadas (texto 50 / imagen 50).
 - Beneficios: 3 columnas. Usos: grid 4 columnas (sin carrusel). Precios: 3 columnas, la central elevada (`transform: translateY(-12px)`).
-- Comparativa: tabla centrada, `max-width: 760px`. FAQ: 2 columnas (`columns: 2` o grid).
+- Comparativa: tabla centrada, `max-width: 760px`. Testimonios: 2 columnas. FAQ: 2 columnas (`columns: 2` o grid).
 - Contacto: datos a la izquierda, botones de redes a la derecha.
 - Barra sticky inferior oculta.
 

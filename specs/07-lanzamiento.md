@@ -8,7 +8,7 @@
 - [x] Checklist de `01-marca.md` en verde.
 - [x] Precios correctos en hero, tarjetas, sticky, JSON-LD y mensajes de WhatsApp.
 - [x] "Stock limitado" solo si el stock real es ≤ 10. — Inventario inicial: 10. Poner `CONFIG.STOCK_LIMITADO = false` si cambia.
-- [x] Ortografía revisada (tildes, "S/ " con espacio). — Precios con espacio no separable (`S/&nbsp;64.90`).
+- [x] Ortografía revisada (tildes, "S/ " con espacio). — Precios con espacio no separable (`S/&nbsp;45`).
 
 ## Funcional
 - [ ] Todos los botones de WhatsApp abren el chat con el mensaje correcto (probar en iPhone y Android). — Mensajes y codificación verificados en Chrome; falta probar en teléfonos reales con el número definitivo.

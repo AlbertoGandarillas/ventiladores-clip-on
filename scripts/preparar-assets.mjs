@@ -66,13 +66,17 @@ async function fotograma(item) {
   await unlink(tmp);
 }
 
-async function video({ origen, destino, poster, alto, crf }) {
+async function video({ origen, destino, poster, alto, crf, duracion }) {
   const src = await buscar(origen);
   if (!src) { console.warn(`⚠ No encontrado: ${origen}`); return; }
   const out = path.join(DESTINO, destino);
   await mkdir(path.dirname(out), { recursive: true });
-  // Comprime a H.264, sin audio, altura máxima `alto`, listo para web (faststart)
-  await run("ffmpeg", ["-y", "-v", "error", "-i", src, "-an", "-vf", `scale=-2:${alto}`, "-c:v", "libx264", "-crf", String(crf), "-preset", "slow", "-pix_fmt", "yuv420p", "-movflags", "+faststart", out]);
+  // Comprime a H.264, sin audio, altura máxima `alto`, listo para web (faststart).
+  // `duracion` recorta desde el inicio (el video hero solo conserva el tramo sobre una superficie).
+  const args = ["-y", "-v", "error", "-i", src];
+  if (duracion) args.push("-t", String(duracion));
+  args.push("-an", "-vf", `scale=-2:${alto}`, "-c:v", "libx264", "-crf", String(crf), "-preset", "slow", "-pix_fmt", "yuv420p", "-movflags", "+faststart", out);
+  await run("ffmpeg", args);
   const posterPng = path.join(tmpdir(), `poster-${Date.now()}.png`);
   await run("ffmpeg", ["-y", "-v", "error", "-ss", "00:00:01", "-i", out, "-frames:v", "1", posterPng]);
   await sharp(posterPng).webp({ quality: 75 }).toFile(path.join(DESTINO, poster));

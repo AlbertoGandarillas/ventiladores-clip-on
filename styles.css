@@ -16,6 +16,7 @@
   --color-marca-amarillo: #E0B100;
   --color-urgencia: #E8590C;
   --color-borde: #E3E8EE;
+  --color-estrella: #C4840A;
 
   --fuente-titulos: "Manrope", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   --fuente-cuerpo: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
@@ -117,7 +118,7 @@ h3 { font-size: 18px; }
 /* En pantallas bajas (iPhone SE) la imagen se recorta para que "Comprar ahora" quede visible sin scroll */
 .hero-img {
   width: 100%; aspect-ratio: 1; object-fit: cover; object-position: 50% 60%;
-  max-height: max(170px, calc(100svh - 430px));
+  max-height: max(160px, calc(100svh - 470px));
   margin-top: 12px; border-radius: var(--radio-imagen); background: var(--color-fondo-alterno);
 }
 .hero-precio { display: flex; align-items: baseline; gap: 12px; margin-block: 8px; }
@@ -197,6 +198,7 @@ h3 { font-size: 18px; }
 .uso { flex: 0 0 72%; scroll-snap-align: start; }
 .uso img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: var(--radio-tarjeta); background: var(--color-fondo-alterno); }
 .uso h3 { margin-top: 10px; font-size: 17px; }
+.uso p { margin-top: 4px; font-size: 14px; font-weight: 400; color: var(--color-texto-secundario); }
 .seccion .centrado .boton { width: 100%; }
 
 /* RF-07 Comparativa */
@@ -240,6 +242,18 @@ h3 { font-size: 18px; }
 .garantias .icono { color: var(--color-primario); margin-bottom: 10px; }
 .garantias p { color: var(--color-texto-secundario); }
 .seccion-confianza .ficha { margin-top: 24px; }
+
+/* Testimonios del producto */
+.testimonios { display: grid; gap: 16px; margin-top: 8px; }
+.testimonio {
+  display: flex; flex-direction: column; gap: 8px; padding: 20px;
+  background: var(--color-fondo); border: 1px solid var(--color-borde); border-radius: var(--radio-tarjeta);
+}
+.testimonio .estrellas { color: var(--color-estrella); letter-spacing: 2px; font-size: 18px; line-height: 1; }
+.testimonio .estrellas .vacia { color: var(--color-borde); }
+.testimonio h3 { font-size: 18px; }
+.testimonio p { color: var(--color-texto-secundario); }
+.testimonio .quien { margin-top: auto; padding-top: 8px; font-weight: 600; color: var(--color-texto); }
 .resenas { margin-top: 40px; }
 .resenas-lista { display: grid; gap: 16px; margin-top: 16px; }
 .resenas-lista li { padding: 20px; background: var(--color-fondo-alterno); border-radius: var(--radio-tarjeta); }
@@ -328,6 +342,7 @@ body { padding-bottom: var(--alto-barra); }
   .insignias { flex-wrap: wrap; overflow: visible; }
   .header-wa { padding: 0 16px; }
   .garantias { grid-template-columns: repeat(2, 1fr); }
+  .testimonios { grid-template-columns: repeat(2, 1fr); }
   .combos { grid-template-columns: repeat(3, 1fr); align-items: stretch; }
   .uso { flex-basis: 40%; }
   .seccion .centrado .boton { width: auto; }
@@ -372,7 +387,7 @@ body { padding-bottom: var(--alto-barra); }
   .combos { gap: 24px; padding-top: 12px; }
   .combo-destacado { transform: translateY(-12px); }
 
-  .garantias { grid-template-columns: repeat(4, 1fr); }
+  .garantias { grid-template-columns: repeat(2, 1fr); max-width: 760px; margin-inline: auto; }
 
   .faq { display: block; columns: 2; column-gap: 20px; }
   .faq details { margin-bottom: 12px; }

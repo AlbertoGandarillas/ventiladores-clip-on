@@ -9,7 +9,7 @@ Una landing page de un solo producto en `https://uru.pe/ventilador-clip` cuyo ú
 - Nombre comercial en la página: **Ventilador Portátil Clip 360°**.
 - Descripción: ventilador de pinza, mini, sin aspas visibles, rotación 360°, recargable por USB, 3 velocidades.
 - Fabricante de referencia: Ahuccf (se menciona solo en la ficha como `[NOMBRE_FABRICANTE]`).
-- Precio: S/ 64.90 la unidad · 2 por S/ 109.90 · 3 por S/ 149.90.
+- Precio: S/ 45 la unidad · 2 por S/ 80 (S/ 40 cada uno) · 3 por S/ 105 (S/ 35 cada uno).
 - Inventario inicial: 10 unidades (justifica "stock limitado" mientras sea cierto).
 
 ## Quién vende
@@ -46,7 +46,7 @@ ventilador-clip/
 │   ├── img/      (WebP con nombres en español)
 │   ├── video/    (MP4 comprimidos + posters)
 │   └── logo/     (logo URU PNG/SVG)
-├── politicas/    (privacidad, terminos, devoluciones, libro-de-reclamaciones)
+├── politicas/    (privacidad, terminos)
 ├── README.md
 └── specs/
 ```
