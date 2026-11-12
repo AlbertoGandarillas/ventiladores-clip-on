@@ -1,0 +1,8 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "rewrites": [
+    { "source": "/ventilador-clip", "destination": "/index.html" },
+    { "source": "/ventilador-clip/:ruta*", "destination": "/:ruta*" }
+  ]
+}
