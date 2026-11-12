@@ -1,0 +1,31 @@
+{
+  "imagenes": [
+    { "origen": "hf_20261112_030520_fc106204-b80e-4700-9398-1f429379d4d8.png", "destino": "img/ventilador-clip-hero.webp", "ancho": 1200, "alto": 1200, "calidad": 72 },
+    { "origen": "hf_20261112_031710_73eb3692-0ebf-4185-b423-242220eb910b.png", "destino": "img/ventilador-clip-uso-real.webp", "ancho": 900, "alto": 1200, "calidad": 70 },
+    { "origen": "61ycXyL8IQL._AC_SL1500_.avif", "destino": "img/ventilador-clip-producto-blanco.webp", "ancho": 1000 },
+    { "origen": "81xtEYxqV+L._AC_SL1500_.avif", "destino": "img/ventilador-clip-uso-gimnasio.webp", "recorte": { "left": 0, "top": 660, "width": 624, "height": 468 }, "ancho": 800, "alto": 600, "calidad": 72 },
+    { "origen": "81xtEYxqV+L._AC_SL1500_.avif", "destino": "img/ventilador-clip-uso-viajes.webp", "recorte": { "left": 660, "top": 0, "width": 560, "height": 420 }, "ancho": 800, "alto": 600, "calidad": 72 },
+    { "origen": "81xtEYxqV+L._AC_SL1500_.avif", "destino": "img/ventilador-clip-uso-exterior.webp", "recorte": { "left": 720, "top": 530, "width": 640, "height": 480 }, "ancho": 800, "alto": 600, "calidad": 72 },
+    { "origen": "81xtEYxqV+L._AC_SL1500_.avif", "destino": "img/ventilador-clip-uso-oficina.webp", "recorte": { "left": 860, "top": 1000, "width": 640, "height": 480 }, "ancho": 800, "alto": 600, "calidad": 72 },
+    { "origen": "verde.avif", "destino": "img/ventilador-clip-color-verde.webp", "ancho": 600 },
+    { "origen": "blanco-naranja.avif", "destino": "img/ventilador-clip-color-blanco-naranja.webp", "ancho": 600 }
+  ],
+  "fotogramas": [
+    { "origen": "hf_20261112_030742_01fcec0e-f92c-4c74-bf73-76e0a76ca884.mp4", "segundo": 5, "destino": "img/ventilador-clip-uso-escritorio.webp", "ancho": 800, "alto": 600, "calidad": 72 },
+    { "origen": "hf_20261112_030742_01fcec0e-f92c-4c74-bf73-76e0a76ca884.mp4", "segundo": 9.5, "destino": "img/ventilador-clip-uso-coche-bebe.webp", "ancho": 800, "alto": 600, "calidad": 72 },
+    { "origen": "hf_20261112_030742_01fcec0e-f92c-4c74-bf73-76e0a76ca884.mp4", "segundo": 13, "destino": "img/ventilador-clip-uso-cama.webp", "ancho": 800, "alto": 600, "calidad": 72 }
+  ],
+  "og": { "origen": "img/ventilador-clip-hero.webp", "destino": "img/ventilador-clip-og.webp", "ancho": 1200, "alto": 630 },
+  "videos": [
+    { "origen": "hf_20261112_030742_01fcec0e-f92c-4c74-bf73-76e0a76ca884.mp4", "destino": "video/ventilador-clip-hero.mp4", "poster": "video/ventilador-clip-hero-poster.webp", "alto": 720, "crf": 28 },
+    { "origen": "video-clip-celeste.mp4", "destino": "video/ventilador-clip-como-usar.mp4", "poster": "video/ventilador-clip-como-usar-poster.webp", "alto": 720, "crf": 26 }
+  ],
+  "logos": [
+    { "origen": "URU-logo-kit/01-logo-horizontal/uru-logo-horizontal-negro-sobre-transparente.png", "destino": "logo/uru-logo-horizontal-negro.png", "ancho": 400, "quitarBordes": true },
+    { "origen": "URU-logo-kit/01-logo-horizontal/uru-logo-horizontal-blanco-sobre-transparente.png", "destino": "logo/uru-logo-horizontal-blanco.png", "ancho": 400, "quitarBordes": true },
+    { "origen": "URU-logo-kit/04-isotipo/negro-sobre-transparente/uru-isotipo-256.png", "destino": "logo/uru-isotipo.png", "ancho": 256 },
+    { "origen": "URU-logo-kit/06-favicon-app/uru-favicon-32.png", "destino": "logo/favicon-32.png", "ancho": 32 },
+    { "origen": "URU-logo-kit/06-favicon-app/uru-favicon-180.png", "destino": "logo/favicon-180.png", "ancho": 180 },
+    { "origen": "URU-logo-kit/06-favicon-app/uru-favicon-512.png", "destino": "logo/favicon-512.png", "ancho": 512 }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "uru-landing-ventilador-clip",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Landing page estática de Ventilador Portátil Clip 360°, importado por URU (uru.pe). HTML + CSS + JS puro.",
+  "type": "module",
+  "scripts": {
+    "assets": "node scripts/preparar-assets.mjs",
+    "serve": "npx --yes serve -l 8080 .",
+    "check": "npx --yes html-validate index.html && node scripts/verificar-peso.mjs"
+  },
+  "devDependencies": {
+    "sharp": "^0.33.5"
+  }
+}
