@@ -17,7 +17,7 @@ Se copia literal al HTML. Lo que está entre corchetes es placeholder y se manti
 
 - Etiqueta: Ventilador Portátil Clip 360°
 - H1: Frescura personal donde la necesites
-- Subtítulo: Apóyalo sobre tu escritorio o la mesa de noche, o engánchalo a tu ropa, un bolso o una tela delgada del coche de bebé. Gira 360°, es recargable por USB y tiene 3 velocidades.
+- Subtítulo: Engánchalo al cuello de tu polo, a un bolso o a una tela delgada del coche de bebé, y apunta el aire directo a tu cara. También puedes apoyarlo cerca de ti, en el escritorio o la mesa de noche. Gira 360°, es recargable por USB y tiene 3 velocidades.
 - Precio: S/ 45 — pequeño: 2 por S/ 80
 - Botón principal: Comprar ahora
 - Botón secundario: Pedir por WhatsApp
@@ -28,8 +28,8 @@ Se copia literal al HTML. Lo que está entre corchetes es placeholder y se manti
 ## 3. Problema y solución
 
 - H2: El calor no espera. Tú tampoco deberías.
-- Párrafo: En Lima el verano se siente en la oficina, en la combi y en la cama. Un ventilador de pie ocupa espacio y necesita enchufe; un abanico cansa. Este ventilador se apoya sobre una mesa o se engancha a la ropa, un bolso o una tela delgada, apunta el aire hacia ti y funciona con batería.
-- Situaciones: Escritorio sin aire · Coche del bebé al sol · Noches sin dormir
+- Párrafo: En Lima el verano se siente en la oficina, en la combi y en la cama. Un ventilador de pie ocupa espacio y necesita enchufe; un abanico cansa. Este ventilador se engancha a tu ropa, a un bolso o a una tela delgada, apunta el aire hacia tu cara y funciona con batería.
+- Situaciones: Calor en la combi · Coche del bebé al sol · Noches sin dormir
 - Cierre: Pequeño, silencioso y listo en segundos.
 - `alt`: Persona sosteniendo el ventilador clip junto al rostro
 
@@ -42,22 +42,22 @@ Se copia literal al HTML. Lo que está entre corchetes es placeholder y se manti
 | 3 velocidades | Suave para dormir, fuerte para el calor del mediodía. |
 | Recargable por USB | Cárgalo con tu cargador de celular o una power bank. |
 | Portátil y liviano | Cabe en la mochila o la cartera. |
-| Pinza resistente | Se engancha a ropa, bolsos y telas delgadas. No se ajusta a bordes gruesos. |
+| Clip resistente | Se engancha a ropa, bolsos y telas delgadas. No se ajusta a bordes gruesos. |
 | Silencioso y práctico | En velocidad baja casi no se escucha. |
-- Cierre: Ideal sobre el escritorio o la mesa, y enganchado a la ropa, un bolso o una tela del coche de bebé.
+- Cierre: Ideal enganchado a tu ropa, un bolso o una tela del coche de bebé, o apoyado cerca de ti.
 
 ## 5. Cómo usarlo
 
 - H2: Listo en tres pasos
 1. Cárgalo — Conecta el cable USB incluido. [CONFIRMAR TIEMPO DE CARGA]
-2. Engánchalo — Abre la pinza y sujétalo a la ropa, un bolso o una tela delgada, o apóyalo sobre la mesa.
+2. Engánchalo — Abre el clip y sujétalo a la ropa, un bolso o una tela delgada, o apóyalo cerca de ti.
 3. Enciende y ajusta — Un botón, tres velocidades. Gira el cabezal hacia ti.
 
 ## 6. Usos recomendados
 
 - H2: Dónde puedes usarlo
-- Texto: Apóyalo sobre el escritorio, la mesa o la mesa de noche. Engánchalo a la ropa, un bolso o una tela delgada. En el coche de bebé va en la tela, nunca en el mango ni en la baranda.
-- Tarjetas: Escritorio y home office (sobre el escritorio) · Oficina (sobre la mesa) · Cama o cabecera (apoyado encima, no en el borde) · Gimnasio (en la ropa) · Bolsos · Exterior y paseos (en la ropa) · Coche de bebé (solo en una tela, no en el mango)
+- Texto: Engánchalo a la ropa, un bolso o una tela delgada, o apóyalo cerca de ti. En el coche de bebé va en la tela, nunca en el mango ni en la baranda.
+- Tarjetas: Escritorio y home office (sobre el escritorio; texto: "Apóyalo cerca de ti, a poca distancia de la cara.") · Oficina (sobre la mesa) · Cama o cabecera (apoyado encima, no en el borde) · Gimnasio (en la ropa) · Bolsos · Exterior y paseos (en la ropa) · Coche de bebé (solo en una tela, no en el mango)
 - Botón: Quiero el mío
 
 ## 7. Comparativa
@@ -67,7 +67,7 @@ Se copia literal al HTML. Lo que está entre corchetes es placeholder y se manti
 | --- | --- | --- |
 | Ocupa poco espacio | ✓ | ✗ |
 | Portátil, sin enchufe | ✓ | ✗ |
-| Se fija con pinza | ✓ | ✗ |
+| Se fija con clip | ✓ | ✗ |
 | Gira 360° | ✓ | Algunos |
 | Recargable por USB | ✓ | ✗ |
 | Pensado para uso personal | ✓ | Para ambientes |
